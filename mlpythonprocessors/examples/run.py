@@ -15,5 +15,6 @@ registry.register(hello_world.Colorize)
 registry.register(hello_world.Replace)
 
 
+
 if __name__ == "__main__": 
     registry.process(sys.argv)

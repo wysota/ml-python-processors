@@ -5,6 +5,9 @@ setup(name='mlpythonprocessors',
       description='MountainLab python processors',
       url='https://github.com/wysota/ml-python-processors',
       author='Witold Wysota',
-      packages=['mlpythonprocessors'],
+      packages=setuptools.find_packages(),
+      package_data={ 
+        '': ['*.mp']
+      },
       zip_safe=False)
 
